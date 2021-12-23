@@ -3,7 +3,6 @@ theNumbers = "156,153,163,168,166,164,149,187,192,194,197,199,201,210,211,196,20
 #print(theNumbers.split())
 theNumbersSplit = theNumbers.split(',')
 z = 0
-b = 0
 theNumbersInt = [int(x) for x in theNumbersSplit]
 theNumbersWindows = [sum(theNumbersInt[x:x+3]) for x in range(len(theNumbersInt))]
 #print(theNumbersWindows)
